@@ -1,0 +1,45 @@
+body{
+    background-color:#FFC5C5;
+    font-family: "Lucida Bright", sans-serif;
+}
+.blurb h2{
+    color:#A25772;
+    font-weight:100;
+    font-size:2.5rem;
+    line-height:2.0;
+}
+.blurb p{
+    color:brown;
+}
+.content{
+    margin-top:100px;
+}
+
+#mainNavbar{
+    font-size:1.5rem;
+    font-weight:100;
+}
+#mainNavbar .nav-link{
+    color:white;
+}
+#mainNavbar .nav-link:hover{
+    color:#A25772;
+}
+#mainNavbar .navbar-brand{
+    color:#A25772;
+    font-size:1.5rem;
+    font-weight:100;
+}
+#headingGroup span{
+    color:#A25772;
+}
+#headingGroup h1{
+    font-weight:100;
+    font-size:3rem;
+}
+@media(max-width:1000px){
+    #headingGroup h1{
+        font-weight:100;
+        font-size:2rem;
+    }
+}
